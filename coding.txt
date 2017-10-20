@@ -1,2 +1,7 @@
 from django.http import HttpResponse
-    return HttpResponse('上传文件')
+def index(request):
+    return HttpResponse('nihao')
+def index2(request):
+    return HttpResponse('我不好')
+def index3(requset):
+    return 'nishuo'
